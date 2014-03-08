@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+  //Shortcut to collapse main content
+  $('.panel-cover').addClass('panel-cover--collapsed');
+
   $('body').removeClass('no-js');
 
   $('a.blog-button').click(function() {
