@@ -97,28 +97,6 @@ em {
   font-style: italic;
 }
 
-blockquote {
-  margin: 1em 0;
-  padding: 2em 0;
-  background: $gray-lightest;
-  border: 1px solid $gray-lighter;
-  border-radius: $border-radius;
-  font-family: $serif-font;
-  font-weight: lighter;
-  font-style: italic;
-  font-size: 1.3em;
-  text-align: center;
-
-  p {
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-  }
-
-}
-
 // ------------------------------
 // BASIC STYLING
 // ------------------------------

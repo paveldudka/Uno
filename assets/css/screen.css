@@ -69,6 +69,20 @@ body {
   display: inline-block;
   text-decoration: inherit; }
 
+  blockquote{
+    margin:1.6em 0;
+    padding:0 1.6em;
+    border-left:#edece4 .6em solid
+  }
+  blockquote p{
+    margin:.8em 0;
+    font-size:1.2em;
+    font-weight:300
+  }
+  blockquote small{display:inline-block;margin:.8em 0 .8em 1.5em;font-size:.9em;color:#aaa9a2}
+  blockquote small:before{content:'\2014 \00A0'}
+  blockquote cite{font-weight:700}
+
 .icon-address-book:before {
   content: "\f100"; }
 
@@ -990,19 +1004,6 @@ strong {
 em {
   font-style: italic; }
 
-blockquote {
-  margin: 1em 0;
-  padding: 2em 0;
-  background: #f8f8f8;
-  border: 1px solid #eeeeee;
-  border-radius: 3px;
-  font-family: "Roboto Slab", serif;
-  font-weight: lighter;
-  font-style: italic;
-  font-size: 1.3em;
-  text-align: center; }
-  blockquote p:last-child {
-    margin-bottom: 0; }
 
 ol, ul {
   margin: 0 0 1.3em 2.5em; }
